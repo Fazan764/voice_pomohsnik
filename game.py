@@ -1,7 +1,8 @@
 import random
 from datetime import datetime
 import time
-
+import pyautogui as pag
+import keyboard
 
 def guess_chislo():
     point = 0
@@ -101,6 +102,16 @@ def game_speed():
   
     print(done_time_speed)
     print(f'Ваше среднее время реакции ввода - {average_speed}')
+def macros():
+    
+
+        kol_vo = 0
+        keyboard.wait("m")
+        while kol_vo != 8:
+        
+            keyboard.write("GG!WP")
+            keyboard.press("enter")
+            kol_vo = kol_vo + 1
 
 
 
