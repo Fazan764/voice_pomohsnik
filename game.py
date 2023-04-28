@@ -32,8 +32,8 @@ def matematica_game():
     
     while tru != 6:
         time_start = datetime.now()
-        one_chislo = random.randint(10,100)
-        two_chislo = random.randint(10,100)
+        one_chislo = random.randint(10,90)
+        two_chislo = random.randint(10,90)
         final_chislo = one_chislo + two_chislo
    
         try:

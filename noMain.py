@@ -5,7 +5,7 @@ import pyautogui as pag
 from tkinter import *
 window = Tk(className='Text helper')
 window.configure(bg='grey22')
-window.geometry('571x415')
+window.geometry('690x458')
 
 
     
